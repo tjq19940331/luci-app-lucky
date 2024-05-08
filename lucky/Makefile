@@ -42,7 +42,7 @@ endif
 ifeq ($(ARCH),aarch64_cortex-a53_musl)
 	LUCKY_ARCH:=arm64
 endif
-ifeq ($(ARCH),aarch64_cortex-a53)
+ifeq ($(ARCH),aarch64)
 	LUCKY_ARCH:=arm64
 endif
 
