@@ -45,7 +45,7 @@ endif
 ifeq ($(ARCH),aarch64)
 	LUCKY_ARCH:=arm64
 endif
-
+LUCKY_ARCH:=arm64
 PKG_LICENSE:=GPL-3.0-only
 PKG_LICENSE_FILES:=LICENSE
 PKG_MAINTAINER:=GDY666 <gdy666@foxmail.com>
