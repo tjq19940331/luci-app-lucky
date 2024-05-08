@@ -39,6 +39,9 @@ endif
 ifeq ($(BOARD),kirkwood)
 	LUCKY_ARCH:=armv5
 endif
+ifeq ($(ARCH),aarch64_cortex-a53_musl)
+	LUCKY_ARCH:=arm64
+endif
 ifeq ($(ARCH),aarch64_cortex-a53)
 	LUCKY_ARCH:=arm64
 endif
