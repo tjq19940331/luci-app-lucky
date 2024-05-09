@@ -11,7 +11,6 @@ PKG_VERSION:=1.2.0
 PKG_RELEASE:=8
 
 LUCI_TITLE:=LuCI Support for Dynamic lucky Client
-LUCI_DEPENDS:=+lucky
 LUCI_PKGARCH:=all
 
 define Package/$(PKG_NAME)/conffiles
